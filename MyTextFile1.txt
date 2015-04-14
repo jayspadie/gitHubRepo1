@@ -1,1 +1,2 @@
 This is just a text file made in GitHub.
+Edited in myBranch1.
