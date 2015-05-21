@@ -1,2 +1,3 @@
 ﻿ABC竹ABC
 ﻿May 21: Editing this UTF-8 file with BOM in Github.  Will it keep the BOM?
+ A little more text.
