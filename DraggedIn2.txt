@@ -1,0 +1,11 @@
+This is just a regular text file
+With CRLF
+Created in UltraEdit
+
+
+Just playing around with Git
+1
+2
+3
+4
+5
