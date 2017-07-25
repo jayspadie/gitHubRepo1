@@ -1,7 +1,7 @@
 This is just a text file made in GitHub.
 
 Adding some chinese:
-right below here.
+right below this line.
 曰木火日水木竹   乂土竹山
 There, done.
 
