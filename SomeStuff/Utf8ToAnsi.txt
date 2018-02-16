@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- See this page for info: https://osgwiki.com/wiki/Localized_Resources_in_Settings -->
+<root>
+  <data name="Resources.SystemSettings_Privacy_Dashboard_Info.Text" xml:space="preserve">
+[jaspadie]    <value>If you have a Microsoft Account, there may be additional diagnostic data to delete. You can manage and delete any additional data by accessing your</value>
+  </data>
+  <data name="Resources.SystemSettings_Privacy_Dashboard_Info_Link_Run.Text" xml:space="preserve">
+    <value>Microsoft Account portal.</value>
+  </data>
+
+  <data name="Resources.SettingsGroupEaseOfAccessBraille.DisplayName" xml:space="preserve">
+    <value>Use braille (beta)</value>
+  </data>
+  <data name="Resources.SystemSettingsAccessibilityBrailleInstallationInfo.Text" xml:space="preserve">
+[jaspadie]    <value>To use your braille display with Narrator, select Download and install braille. You’ll install the following third-party software:</value>
+  </data>
+  <data name="Resources.SystemSettingsAccessibilityBrailleInstallationInfoBRLTTYHyperlinkRun.Text" xml:space="preserve">
+    <value>BRLTTY</value>
+  </data>
+</root>
