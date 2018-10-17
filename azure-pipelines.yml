@@ -5,7 +5,7 @@
 
 pool: 'default'
 
-steps:
+steps:  INVALID JUNK
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
