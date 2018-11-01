@@ -3,7 +3,7 @@
 # Add steps that build, run tests, deploy, and more: asdfafsdf asdfsdaf number of runs?
 # https://aka.ms/yaml
 
-pool: 'Defaultxxx'
+pool: 'Default'
 
 steps:
 - script: echo Hello, world!
