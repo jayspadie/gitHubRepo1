@@ -8,7 +8,8 @@ trigger: none
 pool: Default
 
 steps:
-- checkout: github://jayspadie/gitHubRepo2@branch1
+- checkout: github://jayspadie/gitHubRepo1@branch1
+  path: InlineCheckout-gitHubRepo1-branch1
 
 - script: echo Hello, GitHub (with var1 value %VAR1%)!
   displayName: 'Run a one-line script with var1 value %VAR1%'
