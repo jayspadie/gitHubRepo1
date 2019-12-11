@@ -7,8 +7,17 @@ trigger: none
 
 pool: Default
 
+resources:
+  repositories:
+  - repository: MyGitHubRepo
+    name: jayspadie/gitHubRepo1
+    ref: myBranch1
+    type: github
+    endpoint: PrivateGitProject1
+
 steps:
-- checkout: github://jayspadie/gitHubRepo1@branch1
+# - checkout: github://jayspadie/gitHubRepo1@branch1
+- checkout: MyGitHubRepo
   path: InlineCheckout-gitHubRepo1-branch1
 
 - script: echo Hello, GitHub (with var1 value %VAR1%)!
