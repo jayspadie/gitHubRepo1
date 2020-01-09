@@ -17,6 +17,7 @@ resources:
 
 steps:
 - checkout: self
+  path: self-path
 - checkout: myGitHubRepo
   path: myGitHubRepo-path
 
