@@ -7,9 +7,17 @@ trigger: none
 
 pool: default
 
+resources:
+  repositories:
+  - repository: myGitHubRepo
+    name: jayspadie/gitHubRepo1
+    type: github
+    ref: azure-pipelines/Dec11
+    endpoint: PrivateGitProject1
+
 steps:
 - checkout: self
-- checkout: github://jayspadie/gitHubRepo1@azure-pipelines/Dec11
+- checkout: myGitHubRepo
 
 - script: echo Hello, GitHub!
   displayName: 'Run a one-line script'
