@@ -18,6 +18,7 @@ resources:
 steps:
 - checkout: self
 - checkout: myGitHubRepo
+  path: myGitHubRepo-path
 
 - script: echo Hello, GitHub!
   displayName: 'Run a one-line script'
