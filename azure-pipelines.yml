@@ -1,0 +1,21 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.sadfsdaf
+# Add steps that build, run tests, deploy, and more: asdfafsdf asdfsdaf number of runs? ssXXssYY
+# https://aka.ms/yaml
+
+pool: 'Default'
+
+steps:
+- script: echo Hello, GitHub!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+
+    for /l %%i in (1, 1, 20) do (
+      echo ping count %%i running on %AGENT_HOMEDIRECTORY%
+      ping -n 2 127.0.0.1 > nul
+    )
+
+  displayName: 'Run a multi-line script'
